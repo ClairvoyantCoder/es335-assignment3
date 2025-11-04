@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import os
 import json
 import difflib
@@ -351,3 +351,4 @@ if show_oov:
     sample_oov = "Sherloc" if dataset_hint == "natural" else "memcoy"
     mapped = map_oov_token(sample_oov, vocab, id2tok_from_inv(inv_vocab), oov_strategy, dataset_hint)
     st.write(f"OOV example: `{sample_oov}` → `{mapped}` (strategy: **{oov_strategy}**)")
+

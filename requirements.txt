@@ -1,0 +1,4 @@
+torch
+streamlit
+numpy
+requests
